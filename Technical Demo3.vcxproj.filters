@@ -1,0 +1,1364 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="libraries">
+      <UniqueIdentifier>{f0ac59e0-8be9-4318-a4a6-37ff4a957627}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libraries\glm">
+      <UniqueIdentifier>{85999a09-3ecf-4242-b4f4-5dddd2efa23b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libraries\glew-2.2.0">
+      <UniqueIdentifier>{b617e922-524c-4a53-b300-c444f845fbbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libraries\glfw-3.4bin.WIN64">
+      <UniqueIdentifier>{775bda78-2c65-43c2-b611-395dc1bc2a32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libraries\stb-master">
+      <UniqueIdentifier>{b9386db5-5922-4096-a08e-0074778e0982}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lightmanager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Technical Demo 3\Libraraies\glm\detail\glm.cpp">
+      <Filter>libraries\glm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Technical Demo 3\Libraraies\glm\glm.cppm">
+      <Filter>libraries\glm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Technical Demo 3\Libraraies\glm\out\build\x64-Debug\CMakeFiles\3.29.5-msvc4\CompilerIdC\CMakeCCompilerId.c">
+      <Filter>libraries\glm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Technical Demo 3\Libraraies\glm\out\build\x64-Debug\CMakeFiles\3.29.5-msvc4\CompilerIdCXX\CMakeCXXCompilerId.cpp">
+      <Filter>libraries\glm</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lightmanager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\common.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\detail\compute_common.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\detail\compute_vector_decl.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\detail\compute_vector_relational.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\detail\qualifier.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\detail\setup.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\detail\type_float.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\detail\type_half.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\detail\type_mat2x2.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\detail\type_mat2x3.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\detail\type_mat2x4.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\detail\type_mat3x2.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\detail\type_mat3x3.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\detail\type_mat3x4.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\detail\type_mat4x2.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\detail\type_mat4x3.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\detail\type_mat4x4.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\detail\type_quat.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\detail\type_vec1.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\detail\type_vec2.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\detail\type_vec3.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\detail\type_vec4.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\detail\_features.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\detail\_fixes.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\detail\_noise.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\detail\_swizzle.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\detail\_swizzle_func.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\detail\_vectorize.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\exponential.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\matrix_clip_space.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\matrix_common.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\matrix_double2x2.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\matrix_double2x2_precision.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\matrix_double2x3.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\matrix_double2x3_precision.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\matrix_double2x4.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\matrix_double2x4_precision.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\matrix_double3x2.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\matrix_double3x2_precision.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\matrix_double3x3.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\matrix_double3x3_precision.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\matrix_double3x4.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\matrix_double3x4_precision.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\matrix_double4x2.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\matrix_double4x2_precision.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\matrix_double4x3.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\matrix_double4x3_precision.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\matrix_double4x4.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\matrix_double4x4_precision.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\matrix_float2x2.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\matrix_float2x2_precision.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\matrix_float2x3.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\matrix_float2x3_precision.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\matrix_float2x4.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\matrix_float2x4_precision.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\matrix_float3x2.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\matrix_float3x2_precision.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\matrix_float3x3.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\matrix_float3x3_precision.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\matrix_float3x4.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\matrix_float3x4_precision.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\matrix_float4x2.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\matrix_float4x2_precision.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\matrix_float4x3.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\matrix_float4x3_precision.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\matrix_float4x4.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\matrix_float4x4_precision.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\matrix_int2x2.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\matrix_int2x2_sized.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\matrix_int2x3.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\matrix_int2x3_sized.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\matrix_int2x4.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\matrix_int2x4_sized.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\matrix_int3x2.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\matrix_int3x2_sized.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\matrix_int3x3.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\matrix_int3x3_sized.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\matrix_int3x4.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\matrix_int3x4_sized.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\matrix_int4x2.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\matrix_int4x2_sized.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\matrix_int4x3.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\matrix_int4x3_sized.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\matrix_int4x4.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\matrix_int4x4_sized.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\matrix_integer.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\matrix_projection.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\matrix_relational.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\matrix_transform.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\matrix_uint2x2.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\matrix_uint2x2_sized.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\matrix_uint2x3.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\matrix_uint2x3_sized.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\matrix_uint2x4.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\matrix_uint2x4_sized.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\matrix_uint3x2.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\matrix_uint3x2_sized.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\matrix_uint3x3.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\matrix_uint3x3_sized.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\matrix_uint3x4.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\matrix_uint3x4_sized.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\matrix_uint4x2.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\matrix_uint4x2_sized.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\matrix_uint4x3.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\matrix_uint4x3_sized.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\matrix_uint4x4.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\matrix_uint4x4_sized.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\quaternion_common.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\quaternion_double.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\quaternion_double_precision.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\quaternion_exponential.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\quaternion_float.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\quaternion_float_precision.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\quaternion_geometric.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\quaternion_relational.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\quaternion_transform.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\quaternion_trigonometric.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\scalar_common.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\scalar_constants.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\scalar_integer.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\scalar_int_sized.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\scalar_packing.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\scalar_reciprocal.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\scalar_relational.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\scalar_uint_sized.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\scalar_ulp.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\vector_bool1.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\vector_bool1_precision.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\vector_bool2.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\vector_bool2_precision.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\vector_bool3.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\vector_bool3_precision.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\vector_bool4.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\vector_bool4_precision.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\vector_common.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\vector_double1.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\vector_double1_precision.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\vector_double2.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\vector_double2_precision.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\vector_double3.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\vector_double3_precision.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\vector_double4.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\vector_double4_precision.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\vector_float1.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\vector_float1_precision.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\vector_float2.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\vector_float2_precision.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\vector_float3.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\vector_float3_precision.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\vector_float4.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\vector_float4_precision.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\vector_int1.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\vector_int1_sized.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\vector_int2.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\vector_int2_sized.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\vector_int3.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\vector_int3_sized.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\vector_int4.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\vector_int4_sized.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\vector_integer.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\vector_packing.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\vector_reciprocal.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\vector_relational.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\vector_uint1.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\vector_uint1_sized.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\vector_uint2.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\vector_uint2_sized.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\vector_uint3.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\vector_uint3_sized.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\vector_uint4.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\vector_uint4_sized.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\vector_ulp.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext\_matrix_vectorize.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\ext.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\fwd.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\geometric.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\glm.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\gtc\bitfield.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\gtc\color_space.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\gtc\constants.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\gtc\epsilon.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\gtc\integer.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\gtc\matrix_access.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\gtc\matrix_integer.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\gtc\matrix_inverse.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\gtc\matrix_transform.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\gtc\noise.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\gtc\packing.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\gtc\quaternion.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\gtc\random.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\gtc\reciprocal.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\gtc\round.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\gtc\type_aligned.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\gtc\type_precision.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\gtc\type_ptr.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\gtc\ulp.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\gtc\vec1.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\gtx\associated_min_max.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\gtx\bit.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\gtx\closest_point.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\gtx\color_encoding.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\gtx\color_space.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\gtx\color_space_YCoCg.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\gtx\common.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\gtx\compatibility.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\gtx\component_wise.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\gtx\dual_quaternion.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\gtx\easing.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\gtx\euler_angles.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\gtx\extend.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\gtx\extended_min_max.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\gtx\exterior_product.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\gtx\fast_exponential.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\gtx\fast_square_root.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\gtx\fast_trigonometry.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\gtx\functions.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\gtx\gradient_paint.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\gtx\handed_coordinate_space.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\gtx\hash.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\gtx\integer.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\gtx\intersect.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\gtx\io.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\gtx\log_base.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\gtx\matrix_cross_product.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\gtx\matrix_decompose.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\gtx\matrix_factorisation.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\gtx\matrix_interpolation.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\gtx\matrix_major_storage.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\gtx\matrix_operation.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\gtx\matrix_query.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\gtx\matrix_transform_2d.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\gtx\mixed_product.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\gtx\norm.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\gtx\normal.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\gtx\normalize_dot.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\gtx\number_precision.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\gtx\optimum_pow.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\gtx\orthonormalize.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\gtx\pca.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\gtx\perpendicular.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\gtx\polar_coordinates.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\gtx\projection.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\gtx\quaternion.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\gtx\range.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\gtx\raw_data.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\gtx\rotate_normalized_axis.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\gtx\rotate_vector.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\gtx\scalar_multiplication.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\gtx\scalar_relational.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\gtx\spline.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\gtx\std_based_type.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\gtx\string_cast.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\gtx\texture.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\gtx\transform.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\gtx\transform2.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\gtx\type_aligned.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\gtx\type_trait.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\gtx\vector_angle.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\gtx\vector_query.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\gtx\vec_swizzle.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\gtx\wrap.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\integer.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\mat2x2.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\mat2x3.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\mat2x4.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\mat3x2.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\mat3x3.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\mat3x4.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\mat4x2.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\mat4x3.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\mat4x4.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\matrix.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\packing.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\simd\common.h">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\simd\exponential.h">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\simd\geometric.h">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\simd\integer.h">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\simd\matrix.h">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\simd\neon.h">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\simd\packing.h">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\simd\platform.h">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\simd\trigonometric.h">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\simd\vector_relational.h">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\trigonometric.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\vec2.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\vec3.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\vec4.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glm\vector_relational.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glew-2.2.0\include\GL\eglew.h">
+      <Filter>libraries\glew-2.2.0</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glew-2.2.0\include\GL\glew.h">
+      <Filter>libraries\glew-2.2.0</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glew-2.2.0\include\GL\glxew.h">
+      <Filter>libraries\glew-2.2.0</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glew-2.2.0\include\GL\wglew.h">
+      <Filter>libraries\glew-2.2.0</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glfw-3.4.bin.WIN64\include\GLFW\glfw3.h">
+      <Filter>libraries\glfw-3.4bin.WIN64</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\glfw-3.4.bin.WIN64\include\GLFW\glfw3native.h">
+      <Filter>libraries\glfw-3.4bin.WIN64</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Technical Demo 3\Libraraies\stb-master\stb_image.h">
+      <Filter>libraries\stb-master</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\detail\func_common.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\detail\func_common_simd.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\detail\func_exponential.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\detail\func_exponential_simd.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\detail\func_geometric.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\detail\func_geometric_simd.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\detail\func_integer.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\detail\func_integer_simd.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\detail\func_matrix.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\detail\func_matrix_simd.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\detail\func_packing.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\detail\func_packing_simd.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\detail\func_trigonometric.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\detail\func_trigonometric_simd.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\detail\func_vector_relational.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\detail\func_vector_relational_simd.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\detail\type_half.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\detail\type_mat2x2.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\detail\type_mat2x3.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\detail\type_mat2x4.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\detail\type_mat3x2.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\detail\type_mat3x3.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\detail\type_mat3x4.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\detail\type_mat4x2.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\detail\type_mat4x3.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\detail\type_mat4x4.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\detail\type_mat4x4_simd.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\detail\type_quat.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\detail\type_quat_simd.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\detail\type_vec1.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\detail\type_vec2.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\detail\type_vec3.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\detail\type_vec4.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\detail\type_vec_simd.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\ext\matrix_clip_space.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\ext\matrix_common.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\ext\matrix_integer.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\ext\matrix_projection.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\ext\matrix_relational.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\ext\matrix_transform.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\ext\quaternion_common.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\ext\quaternion_common_simd.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\ext\quaternion_exponential.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\ext\quaternion_geometric.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\ext\quaternion_relational.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\ext\quaternion_transform.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\ext\quaternion_trigonometric.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\ext\scalar_common.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\ext\scalar_constants.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\ext\scalar_integer.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\ext\scalar_packing.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\ext\scalar_reciprocal.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\ext\scalar_relational.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\ext\scalar_ulp.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\ext\vector_common.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\ext\vector_integer.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\ext\vector_packing.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\ext\vector_reciprocal.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\ext\vector_relational.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\ext\vector_ulp.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\gtc\bitfield.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\gtc\color_space.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\gtc\constants.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\gtc\epsilon.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\gtc\integer.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\gtc\matrix_access.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\gtc\matrix_inverse.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\gtc\matrix_transform.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\gtc\noise.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\gtc\packing.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\gtc\quaternion.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\gtc\quaternion_simd.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\gtc\random.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\gtc\round.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\gtc\type_precision.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\gtc\type_ptr.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\gtc\ulp.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\gtx\associated_min_max.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\gtx\bit.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\gtx\closest_point.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\gtx\color_encoding.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\gtx\color_space.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\gtx\color_space_YCoCg.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\gtx\common.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\gtx\compatibility.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\gtx\component_wise.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\gtx\dual_quaternion.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\gtx\easing.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\gtx\euler_angles.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\gtx\extend.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\gtx\extended_min_max.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\gtx\exterior_product.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\gtx\fast_exponential.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\gtx\fast_square_root.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\gtx\fast_trigonometry.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\gtx\float_normalize.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\gtx\functions.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\gtx\gradient_paint.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\gtx\handed_coordinate_space.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\gtx\hash.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\gtx\integer.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\gtx\intersect.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\gtx\io.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\gtx\log_base.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\gtx\matrix_cross_product.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\gtx\matrix_decompose.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\gtx\matrix_factorisation.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\gtx\matrix_interpolation.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\gtx\matrix_major_storage.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\gtx\matrix_operation.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\gtx\matrix_query.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\gtx\matrix_transform_2d.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\gtx\mixed_product.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\gtx\norm.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\gtx\normal.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\gtx\normalize_dot.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\gtx\optimum_pow.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\gtx\orthonormalize.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\gtx\pca.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\gtx\perpendicular.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\gtx\polar_coordinates.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\gtx\projection.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\gtx\quaternion.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\gtx\raw_data.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\gtx\rotate_normalized_axis.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\gtx\rotate_vector.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\gtx\scalar_relational.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\gtx\spline.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\gtx\std_based_type.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\gtx\string_cast.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\gtx\texture.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\gtx\transform.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\gtx\transform2.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\gtx\type_aligned.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\gtx\type_trait.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\gtx\vector_angle.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\gtx\vector_query.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+    <None Include="..\..\Technical Demo 3\Libraraies\glm\gtx\wrap.inl">
+      <Filter>libraries\glm</Filter>
+    </None>
+  </ItemGroup>
+</Project>
